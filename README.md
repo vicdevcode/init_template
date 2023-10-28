@@ -1,18 +1,36 @@
-# ЭТО МОЙ ШАБЛОНЧИК ДЛЯ ОБЫЧНОГО REST API СЕРВЕРА
+# Это чистая архитектура
 
-Простой шаблон, который имеет в себе config, logger, postgres, gorm.
+Шаблон для инициализации проектов под чистую архитектуру. Имеется здесь:
+`config`, `logger`, `postgres`, `gorm`, `gin`.
 
-## Интеграция в проект
+## Как встроить это в свой проект?
 
-```bash
-go mod init <реп>
+Сначала инициализируем свой проект через
+
+```shell
+go mod init <repository>
 ```
 
-Скопировать всё кроме `go.mod и go.sum`, но удали `example.config.yaml` и
-`example.env`
+Всё копируем, кроме: `go.mod`, `go.sum`, `example.env`, `example.config.yaml`
 
-Добавить свои `.env` и `config.yaml`
+Добавить свои `.env, config/config.yaml` файлы, исходя из их примеров.
 
-Не забыть создать `bin` папку
+Заменить import на свой репозиторий, а также просто исправить все ошибки.
 
-Заменить все import на свой <реп>
+список библиотек:
+
+```shell
+go get github.com/fatih/color
+
+go get github.com/gin-gonic/gin
+
+go get github.com/google/uuid
+
+go get github.com/ilyakaznacheev/cleanenv
+
+go get github.com/joho/godotenv
+
+go get gorm.io/gorm
+
+go get gorm.io/driver/postgres
+```
