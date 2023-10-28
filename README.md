@@ -11,7 +11,7 @@
 go mod init <repository>
 ```
 
-Всё копируем, кроме: `go.mod`, `go.sum`, `example.env`, `example.config.yaml`
+Скопировать всё, кроме: `go.mod`, `go.sum`, `example.env`, `example.config.yaml`
 
 Добавить свои `.env, config/config.yaml` файлы, исходя из их примеров.
 
