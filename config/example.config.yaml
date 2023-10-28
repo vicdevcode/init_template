@@ -1,0 +1,11 @@
+env: "local" # local, dev, prod
+http:
+  port: "5000"
+  host: "localhost"
+postgres: # может быть любая бд
+  username: "postgres"
+  password: "postgres"
+  host: "localhost"
+  port: "5432"
+  database: "postgres"
+# Ваши секреты
