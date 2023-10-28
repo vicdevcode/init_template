@@ -21,16 +21,10 @@ go mod init <repository>
 
 ```shell
 go get github.com/fatih/color
-
 go get github.com/gin-gonic/gin
-
 go get github.com/google/uuid
-
 go get github.com/ilyakaznacheev/cleanenv
-
 go get github.com/joho/godotenv
-
 go get gorm.io/gorm
-
 go get gorm.io/driver/postgres
 ```
