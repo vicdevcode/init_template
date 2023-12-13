@@ -9,7 +9,11 @@ http:
 postgres: # может быть любая бд
   username: "postgres"
   password: "postgres"
-  host: "45.12.236.183"
+  host: "localhost"
   port: "5432"
   database: "postgres"
+jwt:
+  secret: "my-big-hard-secret123"
+  access_expires_at: 15m
+  refresh_expires_at: 720h
 # Ваши секреты
