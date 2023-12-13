@@ -3,7 +3,11 @@
 
 # Binary
 bin/*
+!bin/README.md
 
 # Config
 config/*
 !config/example.config.yaml
+!config/README.md
+
+cmd/test
