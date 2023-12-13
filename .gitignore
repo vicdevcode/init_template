@@ -1,6 +1,6 @@
 # Env
-.env
-
+*.env
+!example.env
 # Binary
 bin/*
 !bin/README.md
